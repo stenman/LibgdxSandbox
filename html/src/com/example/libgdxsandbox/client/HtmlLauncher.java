@@ -7,13 +7,13 @@ import com.example.libgdxsandbox.LibgdxSandbox;
 
 public class HtmlLauncher extends GwtApplication {
 
-        @Override
-        public GwtApplicationConfiguration getConfig () {
-                return new GwtApplicationConfiguration(480, 320);
-        }
+	@Override
+	public GwtApplicationConfiguration getConfig() {
+		return new GwtApplicationConfiguration(800, 480);
+	}
 
-        @Override
-        public ApplicationListener getApplicationListener () {
-                return new LibgdxSandbox();
-        }
+	@Override
+	public ApplicationListener getApplicationListener() {
+		return new LibgdxSandbox();
+	}
 }
